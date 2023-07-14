@@ -1,0 +1,202 @@
+
+
+/* styles.css */
+
+/* Reset default styles */
+Body, h1, h2, p, ul, li, form, input, textarea {
+  Margin: 0;
+  Padding: 0;
+  Box-sizing: border-box;
+
+}
+
+/* Global styles */
+Body {
+  Font-family: Arial, sans-serif;
+  Line-height: 1.6;
+  Background-color: #f4f4f4;
+  Color: #ffffff;
+  background-image: url(pics/background.jpg);
+}
+
+Header {
+  Background-color: #3333339f;
+  Padding: 15px;
+  float:right;
+}
+
+Nav ul li  {
+  Display: inline;
+  Margin-right: 15px;
+}
+
+Nav ul li li{
+  display: none;
+}
+
+Nav ul li a {
+  Color: #fff;
+  Text-decoration: none;
+}
+
+Section {
+  Padding: 50px;
+}
+
+H1, h2 {
+  Margin-bottom: 20px;
+}
+ .moto{
+  font-size:small;
+  Background-size: cover;
+  Text-align: center;
+  Color: #fff;
+  Padding: 1px;
+
+ }
+.hero {
+font-size: larger;
+  Background-size: cover;
+  Text-align: center;
+  Color: #fff;
+  Padding: 100px;
+  padding-top: 300px;
+}
+
+.btn {
+  Display: inline-block;
+  Padding: 10px 20px;
+  Background-color: #9211116b;
+  Color: #fff;
+  Text-decoration: none;
+  Border-radius: 5px;
+}
+
+.services {
+  Background-color: #f4f4f4;
+}
+
+.services ul {
+  List-style-type: disc;
+  Margin-left: 20px;
+}
+
+.contact {
+  Background-color: #fff;
+}
+
+Form input,
+Form textarea {
+  align-items: center;
+    Width: 50%;
+  Padding: 10px;
+  Margin-bottom: 10px;
+}
+
+Footer {
+padding-top: 200px;
+  Color: #fff;
+  Text-align: center;
+}
+
+/*  CSS styles for services*/
+
+.service {
+  Background-color: #43474e93;
+  Padding: 40px;
+  
+}
+
+.service {
+  Display: flex;
+  Flex-direction: column;
+  Align-items: center;
+  Text-align: center;
+  Margin-bottom: 40px;
+}
+
+.service img {
+  Width: 200px;
+  Height: 200px;
+  Object-fit: cover;
+  Border-radius: 50%;
+  Margin-bottom: 20px;
+}
+
+.service h3 {
+  Font-size: 20px;
+  Margin-bottom: 10px;
+}
+
+.service p {
+  Font-size: 16px;
+  Color: #ffffff;
+  Line-height: 1.4;
+}
+
+
+/*  CSS styles for services*/
+
+
+.about {
+  Background-color: #43474e00;
+  Padding: 40px;
+  
+}
+
+.about {
+  
+  Display: flex;
+  Flex-direction: column;
+  Align-items: center;
+  Text-align: center;
+  Margin-bottom: 40px;
+}
+
+.about img {
+  Width: 200px;
+  Height: 200px;
+  Object-fit:cover;
+  Border-radius: 50%;
+  Margin-bottom: 20px;
+}
+
+.about h3 {
+  Font-size: 20px;
+  Margin-bottom: 10px;
+}
+
+.about p {
+  Font-size: 16px;
+  Color: #ffffff;
+  Line-height: 1.4;
+}
+
+/*  CSS styles for paragraphs*/
+.p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        Height: 100vh;
+        Margin: 0;
+        Padding: 20px;
+        Font-family: Arial, sans-serif;
+     }
+   
+     P {
+       Margin-bottom: 10px;
+   
+     }
+ 
+    /* CSS code for the logo */
+    .logo {
+      
+      display: inline-block;
+      Width: 150px; /* Adjust the width of the logo as needed */
+      Height: 100px; /* Adjust the height of the logo as needed */
+      Background-image: url("logo.jpg"); /* Replace “logo.png” with the actual filename and extension of your logo image */
+      Background-size: cover; /* Adjust how the background image is displayed */
+      Background-position: left; /* Adjust the position of the background image */
+    }
